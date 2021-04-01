@@ -102,10 +102,10 @@ export default {
   },
   loading: '@/components/loading.vue',
   axios: {
-    baseURL: process.env.TARGET_URL // Used as fallback if no runtime config is provided
+    TARGET_URL: process.env.TARGET_URL // Used as fallback if no runtime config is provided
   },
   env: {
-    baseURL: process.env.TARGET_URL
+    TARGET_URL: process.env.TARGET_URL
   }
   
 }
