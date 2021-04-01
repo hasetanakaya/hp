@@ -1,0 +1,136 @@
+{
+    "index": {
+        "top_kv_msg": [
+            "Experience true pampering with comfort,",
+            "leaving behind your daily hassles and relax."
+        ],
+        "top_ab_ld": [
+            "The Hasedera Temple, main temple of the Buzan-ha sect of Shingon Buddhism, was",
+            "established during the eighth century. The Ryokan  Tanakaya was built later during the",
+            "early Showa era in the same town where Hasedera Temple is located. Since then,  we have been deeply rooted in the temple town and the temple itself."
+        ],
+        "top_ab_btn": "For more information",
+        "top_fd_ld": [
+            "You can enjoy the local seasonal ingredients, such as vegetables,  tempura, traditional tea porridge and Miwa-soumen noodles.",
+            "In particular, sesame tofu is a popular specialty of Tanakaya."
+        ],
+        "top_map": "Access",
+        "top_map_ad": [
+            "748 Hatsuse, Sakurai City, Nara Prefecture, 633-0112",
+            "0744-47-7015 (main number)",
+            "10:00-20:00",
+            "748 Hatsuse, Sakurai City, Nara Prefecture, 633-0112"
+        ],
+        "top_map_msg": [
+            "By car",
+            "We have a parking lot next to the hotel (x spaces).",
+            "By train",
+            "The nearest station is Hasedera Station on the Kintetsu Osaka Line, and the hotel is about a 20-minute walk from the station."
+        ]
+    },
+    "about": {
+        "ab_ld_wp": [
+            "This area is “Hatsuse of the Hidden Country,”as described in the  Manyoshu, the oldest anthology of Japanese poetry.",
+            "Hasedera Temple, main temple of the Buzan sect of Shingon Buddhism, is located in this area.  It has gained the faith of many people, as it is the 8th of the 33 temples of the Kansai Kannon Pilgrimage.",
+            "The Ryokan Tanakaya is located just a two-minute walk from Hasedera Temple."
+        ],
+        "ab_his_txt": [
+            "The Hasedera Temple was founded in the eighth century.  Today, it has over 3000 temples and about 3 million followers throughout Japan.",
+            "Hasedera is known as the “Temple of Flowers”, mainly because of its lavish displays of cherry blossoms, peonies, hydrangeas, and maples throughout the seasons.  The spectacular natural scenery attracts many all year round.",
+            "The Ryokan Tanakaya provides meals and accommodations for visitors of the Hasedera Temple.  We also serve vegetarian cuisine at Hasedera Temple during events of the temple."
+        ],
+        "ab_twn_l": [
+            "The Buddhist Priest Tokudo Shonin, founder of Hasedera Temple, enshrined the statue Eleven-Faced Kannon back in the eighth century. ",
+            "The statue attracted many, especially female worshippers, during the Heian period ( AD794 to 1185). It is said that worshippers came as far as Shindan (China) to visit the Kannon, and prayed to the Goddess of Mercy for her blessing and favor. It is believed that ",
+            "Fujiwara no Michizane, the author of “Dragonfly Diary” and Sugawara no Kojishi, the author of “Sarashina Nikki”, also visitedhere. The town of Hatsuse was formed in this history. ",
+            "In the town of Hatsuse, the Ryokan Tanakaya opened during the early Showa era as a traditional Japanese hotel restaurant. Since then, ",
+            "we have been treating our guests with our homemade sesame tofu and other dishes made with local ingredients."
+        ],
+        "ab_kn_r": [
+            "The Hasedera Temple worships the Kannon, and so do we. ",
+            " A statue of the Kannon is enshrined in the garden at Tanakaya.  ",
+            "It is constantly watching over our guests with it gentle gaze."
+        ]
+    },
+    "food": {
+        "fd_ld": [
+            "This long-established hotel restaurant has been in business since the early Showa era.",
+            "You can enjoy our seasonal dishes and our specialty, sesame tofu."
+        ],
+        "fd_goma_r": {
+            "p": [
+                "Our sesame tofu is made using Nara’s specialty gold sesame seeds.  We carefully grind the seeds until oil is derived, mix it with our soup stock, and then finally harden the mixture with Yoshino kudzu starch.",
+                "The carefully crafted sesame tofu has a rich sesame aroma and a soft texture. Many of our dine-in customers like to purchase takeaway tofu after tasting it at our restaurant. Originally made at the request of the Hasedera Temple, now the tofu has become a signature dish which we are proud of."
+            ]
+        },
+        "fd_siki_l": {
+            "p": "We use a variety of seasonal ingredients in our dishes according to the time of the season. Please enjoy the four seasons of the ancient capital Nara at Tanakaya."
+        },
+        "fd_rcm_mnus": {
+            "h3": [
+                "Sesame Tofu",
+                "Chilled Somen Set Meal",
+                "Soba noodles with edible wild plants"
+            ],
+            "p": [
+                "Our recommendation, with a light aroma of sesame seeds and a smooth texture that melts in your mouth.",
+                "Please enjoy the Nara’s Miwa Somen noodles.",
+                "Soba Noodle Soup made with local seasonal vegetables."
+            ]
+        },
+        "fd_htl": {
+            "p":  "When you stay, we will prepare your meals and you can have it in your room."
+        },
+        "fd_grp": {
+            "p": [
+                "A group menu is also available. Please check below for details.",
+                "Group Menu"
+            ]
+        },
+        "fd_rsv": [
+            "A reservation is required for Vegetarian food and tea porridge",
+            " 0744-47-7015 (main number)"
+        ]
+    },
+    "room": {
+        "rm_ld": [
+            "All rooms are Japanese style. From the third floor you can see ",
+            "Hasedera Temple and hear its conch’s sound at noontime in your room."
+        ],
+        "rm_det_table": [
+            "客室", 
+            "５部屋（和室）", 
+            "客室設備", 
+            "冷暖房・テレビ・金庫・外線電話", 
+            "客室小物類",
+            "浴衣・歯ブラシ・タオル・バスタオル",
+            "浴室小物類",
+            "ボディシャンプー・シャンプー・リンス",
+            "食事場所",
+            "朝夕食場所：１階食堂",
+            "チェックイン",
+            "１５：００",
+            "チェックアウト",
+            "１０：００",
+            "駐車場",
+            "３台"
+        ]
+    },
+    "footer": {
+        "ft_ad": [
+            "748 Hatsuse, Sakurai City, Nara Prefecture,",
+            "633-0112",
+            "TEL：0744-47-7015 (main number)",
+            "Mail：hase-tanakaya@gmail.com",
+            "FAX：0744-47-7548",
+            "748 Hatsuse, Sakurai City, Nara Prefecture, 633-0112"
+        ]
+    },
+    "mnu": [
+        "About Tanakaya",
+        "Dishes",
+        "Rooms",
+        "Booking",
+        "日 / En"
+    ]
+}
