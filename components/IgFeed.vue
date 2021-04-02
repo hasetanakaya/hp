@@ -37,7 +37,7 @@ export default {
         // const TARGET_URL = "https://graph.facebook.com/v9.0/" + IG_biz_account + "?fields=" + get_info_url + "&access_token=" + page_token
         console.log('URL: ' + process.env.IG_BIZ_ACCOUNT) 
         // const feed = await this.$axios.$get()
-        const feed = await this.$axios.$get(baseURL)
+        const feed = await this.$axios.$get(this.$config.baseURL)
         console.log(feed.media.data)
 
         this.igFeed = feed.media.data
