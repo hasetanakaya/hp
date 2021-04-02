@@ -36,7 +36,7 @@ export default {
         const get_info_url= "name%2Cmedia.limit(9)%7Bmedia_url%2Cthumbnail_url%2Cpermalink%7D"
         // const TARGET_URL = "https://graph.facebook.com/v9.0/" + IG_biz_account + "?fields=" + get_info_url + "&access_token=" + page_token
         console.log('URL: ' + process.env.IG_BIZ_ACCOUNT) 
-        const feed = await this.$axios.$get("https://graph.facebook.com/v9.0/" + process.env.IG_BIZ_ACCOUNT + "?fields=" + get_info_url + "&access_token=" + process.env.PAGE_TOKEN)
+        const feed = await this.$axios.$get("https://graph.facebook.com/v9.0/" + $config.IG_BIZ_ACCOUNT + "?fields=" + get_info_url + "&access_token=" + $config.process.env.PAGE_TOKEN)
         // const feed = await this.$axios.$get(TARGET_URL)
         console.log(feed.media.data)
 

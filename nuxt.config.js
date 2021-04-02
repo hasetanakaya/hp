@@ -112,5 +112,12 @@ export default {
   //   IG_BIZ_ACCOUNT: process.env.IG_BIZ_ACCOUNT,
   //   PAGE_TOKEN: process.env.PAGE_TOKEN 
   // }
-
+  privateRuntimeConfig: {
+    IG_BIZ_ACCOUNT: process.env.IG_BIZ_ACCOUNT,
+    PAGE_TOKEN: process.env.PAGE_TOKEN
+  },
+  publicRuntimeConfig: {
+    IG_BIZ_ACCOUNT: process.env.NODE_ENV !== 'production' ? IG_BIZ_ACCOUNT : undefined,
+    PAGE_TOKEN: process.env.NODE_ENV !== 'production' ? PAGE_TOKEN : undefined
+  }
 }
