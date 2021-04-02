@@ -101,23 +101,27 @@ export default {
     transpile: [/^vue2-google-maps($|\/)/, /^vue2-gmap-custom-marker($|\/)/]
   },
   loading: '@/components/loading.vue',
+  env: {
+    TARGET_URL: process.env.IG_BIZ_ACCOUNT,
+    PAGE_TOKEN: process.env.PAGE_TOKEN
+  },
   // axios: {
   //   TARGET_URL: process.env.TARGET_URL // Used as fallback if no runtime config is provided
   // }
-  // env: {
-  //   TARGET_URL: process.env.TARGET_URL
-  // }
+    axios: {
+      TARGET_URL: "https://graph.facebook.com/v9.0/" + process.env.IG_BIZ_ACCOUNT + "?fields=name%2Cmedia.limit(9)%7Bmedia_url%2Cthumbnail_url%2Cpermalink%7D&access_token=" + process.env.PAGE_TOKEN
+    }
   
   // env: {
   //   IG_BIZ_ACCOUNT: process.env.IG_BIZ_ACCOUNT,
   //   PAGE_TOKEN: process.env.PAGE_TOKEN 
   // }
-  privateRuntimeConfig: {
-    IG_BIZ_ACCOUNT: process.env.IG_BIZ_ACCOUNT,
-    PAGE_TOKEN: process.env.PAGE_TOKEN
-  },
-  publicRuntimeConfig: {
-    IG_BIZ_ACCOUNT: process.env.NODE_ENV !== 'production' ? IG_BIZ_ACCOUNT : undefined,
-    PAGE_TOKEN: process.env.NODE_ENV !== 'production' ? PAGE_TOKEN : undefined
-  }
+  // privateRuntimeConfig: {
+  //   IG_BIZ_ACCOUNT: process.env.IG_BIZ_ACCOUNT,
+  //   PAGE_TOKEN: process.env.PAGE_TOKEN
+  // },
+  // publicRuntimeConfig: {
+  //   IG_BIZ_ACCOUNT: process.env.NODE_ENV !== 'production' ? IG_BIZ_ACCOUNT : undefined,
+  //   PAGE_TOKEN: process.env.NODE_ENV !== 'production' ? PAGE_TOKEN : undefined
+  // }
 }
