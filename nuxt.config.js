@@ -101,11 +101,16 @@ export default {
     transpile: [/^vue2-google-maps($|\/)/, /^vue2-gmap-custom-marker($|\/)/]
   },
   loading: '@/components/loading.vue',
-  axios: {
-    TARGET_URL: process.env.TARGET_URL // Used as fallback if no runtime config is provided
-  },
-  env: {
-    TARGET_URL: process.env.TARGET_URL
+  // axios: {
+  //   TARGET_URL: process.env.TARGET_URL // Used as fallback if no runtime config is provided
+  // }
+  // env: {
+  //   TARGET_URL: process.env.TARGET_URL
+  // }
+  privateRuntimeConfig: {
+    axios: {
+      TARGET_URL:
+        process.env.TARGET_URL 
+    }
   }
-  
 }
