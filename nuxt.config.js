@@ -22,10 +22,10 @@ export default {
       { hid: 'description', name: 'description', content: '西国三十三観音霊場第八番札所である長谷寺の門前町において、昭和の中頃より、料理旅館としての田中屋がスタートしました。自家製の胡麻豆腐など地元食材を使用したお料理を訪れる皆様に味わっていただいております。'},
       { hid: 'og:site_name', property: 'og:site_name', content: '料理旅館田中屋 | 長谷寺門前町にたたずむお食事処・観光旅館' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
-      { hid: 'og:url', property: 'og:url', content: 'http://www.hase-tanakaya.com' },
+      { hid: 'og:url', property: 'og:url', content: 'https://www.hase-tanakaya.com' },
       { hid: 'og:title', property: 'og:title', content: '料理旅館田中屋 | 長谷寺門前町にたたずむお食事処・観光旅館' },
       { hid: 'og:description', property: 'og:description', content: '西国三十三観音霊場第八番札所である長谷寺の門前町において、昭和の中頃より、料理旅館としての田中屋がスタートしました。自家製の胡麻豆腐など地元食材を使用したお料理を訪れる皆様に味わっていただいております。' },
-      { hid: 'og:image', property: 'og:image', content: 'http://hase-tanakaya.com/og.jpg'},
+      { hid: 'og:image', property: 'og:image', content: 'https://hase-tanakaya.com/og.jpg'},
       { name: 'twitter:card', content: 'summary' }
     ],
     link: [
@@ -107,10 +107,10 @@ export default {
   // env: {
   //   TARGET_URL: process.env.TARGET_URL
   // }
-
-  env: {
-    IG_BIZ_ACCOUNT: process.env.IG_BIZ_ACCOUNT,
-    PAGE_TOKEN: process.env.PAGE_TOKEN 
-  }
+  
+  // env: {
+  //   IG_BIZ_ACCOUNT: process.env.IG_BIZ_ACCOUNT,
+  //   PAGE_TOKEN: process.env.PAGE_TOKEN 
+  // }
 
 }
