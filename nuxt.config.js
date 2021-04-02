@@ -109,7 +109,7 @@ export default {
   //   TARGET_URL: process.env.TARGET_URL // Used as fallback if no runtime config is provided
   // }
     axios: {
-      TARGET_URL: "https://graph.facebook.com/v9.0/" + process.env.IG_BIZ_ACCOUNT + "?fields=name%2Cmedia.limit(9)%7Bmedia_url%2Cthumbnail_url%2Cpermalink%7D&access_token=" + process.env.PAGE_TOKEN
+      baseURL: "https://graph.facebook.com/v9.0/" + process.env.IG_BIZ_ACCOUNT + "?fields=name%2Cmedia.limit(9)%7Bmedia_url%2Cthumbnail_url%2Cpermalink%7D&access_token=" + process.env.PAGE_TOKEN
     }
   
   // env: {
