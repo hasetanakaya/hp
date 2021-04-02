@@ -107,10 +107,10 @@ export default {
   // env: {
   //   TARGET_URL: process.env.TARGET_URL
   // }
-  privateRuntimeConfig: {
-    axios: {
-      TARGET_URL:
-        process.env.TARGET_URL 
-    }
+
+  env: {
+    IG_BIZ_ACCOUNT: process.env.IG_BIZ_ACCOUNT,
+    PAGE_TOKEN: process.env.PAGE_TOKEN 
   }
+
 }

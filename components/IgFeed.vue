@@ -31,12 +31,12 @@ export default {
         // console.log('URL: ' + this.$config.TARGET_URL) //undefind
         //undefind
         // const feed = await this.$axios.$get(this.$config.TARGET_URL)
-        const IG_biz_account = process.env.IG_BIZ_ACCOUNT
-        const page_token = process.env.PAGE_TOKEN
+        // const IG_biz_account = process.env.IG_BIZ_ACCOUNT
+        // const page_token = process.env.PAGE_TOKEN
         const get_info_url= "name%2Cmedia.limit(9)%7Bmedia_url%2Cthumbnail_url%2Cpermalink%7D"
-        const TARGET_URL = "https://graph.facebook.com/v9.0/" + IG_biz_account + "?fields=" + get_info_url + "&access_token=" + page_token
-        console.log('URL: ' + TARGET_URL) 
-        const feed = await this.$axios.$get(TARGET_URL)
+        // const TARGET_URL = "https://graph.facebook.com/v9.0/" + IG_biz_account + "?fields=" + get_info_url + "&access_token=" + page_token
+        // console.log('URL: ' + TARGET_URL) 
+        const feed = await this.$axios.$get("https://graph.facebook.com/v9.0/" + process.env.IG_BIZ_ACCOUNT + "?fields=" + get_info_url + "&access_token=" + process.env.PAGE_TOKEN)
         // const feed = await this.$axios.$get(TARGET_URL)
         console.log(feed.media.data)
 
