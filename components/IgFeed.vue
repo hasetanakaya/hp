@@ -29,12 +29,13 @@ export default {
         // const target_url = "https://graph.facebook.com/v9.0/" + IG_biz_account + "?fields=" + get_info_url + "&access_token=" + page_token;
         // let TARGET_URL = "https://graph.facebook.com/v9.0/17841442879731703?fields=name%2Cmedia.limit(9)%7Bmedia_url%2Cthumbnail_url%2Cpermalink%7D&access_token=EAABuWjrSs0MBAC48vPjJbx1FXBPMZCoTxAUThfzHeSoDMiUJTgFwdRwPH4Lp2Dm75e29hvwNLCHZBQP1t5N1s8sK9fbVj9OhThD1z4lDjSGDJiL1uFk7zawt3mE0Rq7RkwvXh1BAWSgfBTeBpxxZA6jTs5V206FU3wYdFXsfRUHGP61n97j"
         // console.log('URL: ' + this.$config.TARGET_URL) //undefind
-        console.log('URL: ' + $config.ARGET_URL) //undefind
+        //undefind
         // const feed = await this.$axios.$get(this.$config.TARGET_URL)
         const IG_biz_account = process.env.IG_BIZ_ACCOUNT
         const page_token = process.env.PAGE_TOKEN
         const get_info_url= "name%2Cmedia.limit(9)%7Bmedia_url%2Cthumbnail_url%2Cpermalink%7D"
         const TARGET_URL = "https://graph.facebook.com/v9.0/" + IG_biz_account + "?fields=" + get_info_url + "&access_token=" + page_token
+        console.log('URL: ' + TARGET_URL) 
         const feed = await this.$axios.$get(TARGET_URL)
         // const feed = await this.$axios.$get(TARGET_URL)
         console.log(feed.media.data)
